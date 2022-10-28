@@ -1,0 +1,39 @@
+@media only screen and (max-width: 576px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+// Medium devices (tablets, 576px and up)
+@media (min-width: 576px) { 
+    .col-4 {
+        width: 50%;
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+    .col-4 {
+        width: 50%;
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+    .col-4 {
+        width: 33.33%;
+    }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+    .col-4 {
+        width: 25%;
+    }
+}
+
+@media (min-width: 1400px) { 
+    .col-4 {
+        width: 25%;
+    }
+}
